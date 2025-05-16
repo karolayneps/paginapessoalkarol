@@ -1,0 +1,240 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    font-family: "Nerko One", cursive;
+    background-color: #e0dfdf;
+}
+
+#menu{
+    display:flex;
+    justify-content: space-between;
+    background-color: #e0dfdf;
+    font-family: "Arsenal", sans-serif;
+    padding: 25px;
+}
+
+.logo{
+    padding-left: 90px;
+    font-size: 50px;
+    color:#ffffff; 
+    text-align: center;
+    font-family: "Paytone One", sans-serif;
+    text-shadow:5px 4px 0px #949494
+}
+
+.navegação ul {
+    list-style: none;
+    display:flex;
+}
+
+.navegação ul li{
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: arsenal;
+    padding: 50px 150;
+}
+
+.navegação ul li a {
+        
+}
+
+#sobre {
+    text-align:center;
+    padding: 50px 150px;
+}
+.sobre-nome{
+    margin-top: 20px;
+    text-align: center;
+    color:#ffffff;
+    font-size: 45px;
+    text-shadow:5px 4px 0px rgb(23, 23, 107);
+}
+
+.sobre-imagem{
+    border-radius: 45px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.sobre-descrição{
+    width: 600px;
+    line-height: 1.6;
+    margin-top: 10px;
+    padding: 45px;
+    text-align: center;
+    padding-top: 45px;
+    font-size: 30px;
+    margin: 0 auto;
+}
+
+#formação {
+    background-color: #0D0073;
+    padding: 50px 150px;
+} 
+
+.formação-titulo{
+    text-align: left;
+    color:rgb(255, 255, 255);
+    font-size:45px;
+    padding: 90px;
+    text-decoration: underline #F5AB1A;
+    margin-bottom: 30px;
+}
+
+.formação-titulo:before{
+    content:"★";
+    font-size: 24px;
+    margin-right: 5px;
+}
+
+.formação-titulo:after{
+    content:"★";
+    font-size: 24px;
+    margin-left: 5px;
+}
+
+.formação-lista {
+    width: 600px;
+    margin: 0 auto;
+    color: #ffffff;
+}
+.formação-lista ul li {
+    font-size: 32px ;
+    list-style:circle;
+    color: #ffffff;
+    margin-bottom: 10px;
+    width: 180px;
+}
+
+.formação-lista p{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-family: arsenal;
+    font-size:30px;
+    color: #ffffff;
+}
+
+#Experiência{
+    padding: 50px 150px;
+}
+
+.Experiência-titulo {
+    color: #ffffff;
+    font-size: 45px;
+    margin-bottom: 10px;
+    width: 180px;
+    text-shadow: 5px 4px 0px #949494;
+    padding: 90px;
+}
+
+.Experiência-lista {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.Experiência-lista ul li{
+    font-size: 32px ;
+    list-style:circle;
+    margin-bottom: 10px;
+    width: 180px;
+}
+
+.Experiência-lista p{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-family: arsenal;
+    font-size:30px;
+}
+
+#contato{
+    padding: 50px 150px;
+}
+
+.contato-titulo{
+    color:#ffffff;
+    font-size: 45px;
+    margin-bottom: 30px;
+    text-shadow:5px 4px 0px #949494;
+}
+
+.contato-formulario{
+    display: flex;
+    flex-direction:column;
+    width: 700px;
+    margin: 0 auto;
+}
+
+.contato-grupoinput {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contato-input {
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    margin-bottom: 20px;
+}
+
+.contato-input input{
+    padding: 10px;
+    font-size: 18px;
+    border:1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.contato-input textarea {
+     padding: 10px;
+    font-size: 18px;
+    border:1px solid #ccc;
+    border-radius: 5px;
+}
+
+.btn-enviar {
+    background-color: #8171fd;
+    padding: 15px;
+    color:#fff;
+    font-size:18px;
+    font-weight:arsenal;
+    border:none;
+    border-radius: 10px;
+}
+
+.contao-input label {
+     font-size:18px;
+     margin-bottom:10px;
+}
+
+.rodape {
+    background-color: #8171fd;
+    display: flex;
+    padding: 30px 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rodape-contatos{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+.rodape-contatos a {
+    color:#fff;
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.rodape-contatos img {
+    vertical-align: middle;
+}
+
+.logo-minas {
+    height:80px
+}

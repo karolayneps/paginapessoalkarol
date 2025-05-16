@@ -4,45 +4,97 @@
          <meta charset-"UTF-8" />
          <title>Karolayne Simões</title>
          <link rel="stylesheet" href="style.css" />
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arsenal:ital,wght@0,400;0,700;1,400;1,700&family=Cal+Sans&family=Nerko+One&family=Paytone+One&family=Protest+Guerrilla&display=swap" rel="stylesheet">
    </head> 
    <body>
-      <header>
-        <h1>Karolayne Simões</h1>
+         <header id="menu">
+        <h1 class="logo">Portfolio</h1>
+        <nav class="navegação">
+         <ul>
+            <li ><a href="#sobre"></a>Sobre mim</li>
+            <li><a href="#formação"></a>Formação</li>
+            <li><a href="#Experiências"></a>Experiências</li>
+            <li><a href="contatos"></a>Contato</li>
+         </ul>
+        </nav>
       </header>
       <main>
-      <section>
-         <h2>Sobre mim</h2>
-         <img src="imagens/" alt ="foto da karolayne sorrindo" width="200"/>
-        <p>
+         
+      <section id="sobre">
+
+         <img class=sobre-imagem src="1000023802_d77274c70866e11d779994ec55dca15b-27_03_2025, 23_03_44.jpg" alt ="foto da karolayne sorrindo"  />
+         
+         <h2 class="sobre-nome">Karolayne Simões</h2>
+
+         <p class="sobre-descrição">
            Sou recém formado no ensino medio fiz um curso de<strong> assistente administrativo</strong> pelo <strong>senai</strong> estou aprendendo sobre front-end,<br />
             tenho um gato chamado torresmo e moro no <em>Rio de Janeiro.</em>
          </p>
-         <p>Minha frase favorita é:
-            <cite>tudo vem no tempo certo.</cite>
-         </p>
+         
       </section>
-      <section>
-        <h3>O que eu mais gosto </h3>
-        <ul>
-           <li> Gatinhos</li>
-           <li> Assistir series e filmes </li>
+      <section id="formação">
+         <div>
+      <h3 class="formação-titulo">Formação</h3>
+       
+      <div class="formação-lista">
+          <ul>
+            <li>Curso de administração:</li>
+              <p>Introdução a noções basicas administrativa.</p>
+            <li>Curso de desenvolvimento front-end:</li>
+              <p></p>       
         </ul>
+      </div>
         </section>
-        <section>
-         <h2>Entre em contato comigo</h2>
-          <form>
-            <label form="nome"> Nome: </label>
-            <input type="text" id="Nome" name="Nome" placeholder="Digite seu nome" /> <br /> <br />
-            <label for="email">Email: </label>
-            <input type="email" id="email" name="email" placeholder="Digite o seu email" /> <br /> <br />
-            <label for="mensagem">Mensagem: </label>
-            <textarea id="mensagem" name="mensagem" placeholder="Escreva a sua mensagem"></textarea>
-            <button type="submit">Enviar </button>
+        <section id="Experiência">
+           <h4 class="Experiência-titulo">Experiência</h4>
+         
+           <div class="Experiência-lista">      
+               <ul>
+                  <li>Curso de administração:</li>
+                     <p> Introdução a noções basicas administrativas.</p>
+                  <li>Curso de desenvolvimento front-end:</li>
+                     <p></p>
+               </ul>
+         </div>
+        </section>
+        <section id="contato">
+         <h5 class="contato-titulo">Entre em contato comigo</h5>
+          <form class="contato-formulario">
+           <div class="contato-grupoinput">
+              <div class="contato-input">
+                 <label form="nome"> Nome: </label>
+                 <input type="text" id="Nome" name="Nome" placeholder="Digite seu nome" /> 
+               </div>
+
+               <div class="contato-input">
+                <label for="email">Email: </label>
+                <input type="email" id="email" name="email" placeholder="Digite o seu email" /> 
+              </div>
+           </div>
+
+               <div class="contato-input">
+                 <label for="mensagem">Mensagem: </label>
+                 <textarea id="mensagem" name="mensagem" placeholder="Escreva a sua mensagem"></textarea>
+                </div>
+
+            <button  class="btn-enviar"  type="submit">Enviar </button>
           </form>
         </section>
        </main>
-      <footer>
- <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BSEd1xfpURF%2BG4D5SnGmmEA%3D%3" target"_blank">Linkedin</a>
+
+       <footer class="rodape">
+         <div class="rodape-contatos>
+ 
+             <p><img src=alt="logo do instagram" /> <a href="https://instagram.com/karolaynep.simoes">@karolaynep.simoes</a> </p>
+             <p><img src="git hub.png" alt="logo do git hub"/> <a href="https://github.com//karolayneps"> karolayneps</a> </p>
+             <p><img src="linkedin.png" alt="logo do linkedin"/> <a href="https:linkedin/in/karolayne-simoes"> karolayne simoes</a> </p>
+            
+         </div>
+         <div rodape-logo>
+             <a href="https://minasprogram.com/"><img src="logo.minasprogramam.png" alt="logo do minas progrmam"></a>
+         </div>
       </footer>
    </body>
 </html>
