@@ -11,18 +11,20 @@ body{
 #menu{
     display:flex;
     justify-content: space-between;
-    background-color: #e0dfdf;
+    background-color: #8171fd;
+   ;
     font-family: "Arsenal", sans-serif;
     padding: 25px;
 }
 
 .logo{
+
     padding-left: 90px;
     font-size: 50px;
     color:#ffffff; 
     text-align: center;
     font-family: "Paytone One", sans-serif;
-    text-shadow:5px 4px 0px #949494
+    text-shadow:5px 4px 0px #41349e;
 }
 
 .navegação ul {
@@ -38,7 +40,8 @@ body{
 }
 
 .navegação ul li a {
-        
+    color: #fff;
+    text-decoration: none;     
 }
 
 #sobre {
@@ -211,7 +214,7 @@ body{
 }
 
 .rodape {
-    background-color: #8171fd;
+    background-color: #0D0073;
     display: flex;
     padding: 30px 40px;
     justify-content: space-between;
